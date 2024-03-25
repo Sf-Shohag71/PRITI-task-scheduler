@@ -9,7 +9,7 @@ export default function AddTaskModal({ isOpen, setIsOpen, reset }) {
 
   const onCancel = () => {
     setIsOpen(false);
-    reset();
+    // reset();
   };
 
   const onSubmit = (data) => {
